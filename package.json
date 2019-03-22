@@ -1,0 +1,30 @@
+{
+  "name": "scss2wxss",
+  "version": "1.0.0",
+  "description": "a scss to wxss tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dogodo-cc/scss2wxss.git"
+  },
+  "keywords": [
+    "scss",
+    "wxss"
+  ],
+  "author": "alan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dogodo-cc/scss2wxss/issues"
+  },
+  "homepage": "https://github.com/dogodo-cc/scss2wxss#readme",
+  "bin": {
+    "scss2wxss": "bin/scss2wxss.js"
+  },
+  "dependencies": {
+    "node-sass": "^4.11.0",
+    "node-watch": "^0.6.0"
+  }
+}
