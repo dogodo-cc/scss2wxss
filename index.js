@@ -18,7 +18,7 @@ function compileFile(filename, suffix) {
     const outFilename = filename.replace('.scss', `.${suffix}`);
 
     // console.log('filename: ' + filename);
-    console.log('outFilename: ' + outFilename);
+    // console.log('outFilename: ' + outFilename);
 
     sass.render({
         file: filename,
