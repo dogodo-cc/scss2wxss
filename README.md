@@ -1,16 +1,26 @@
 # scss2wxss
-用scss写小程序的样式
+用scss写小程序的样式, 在项目根目录运行，你可以在需要的文件里创建一个 `.scss` 的文件，
+该插件会自动监听文件变化，然后在同目录下生成一个同名的 `.wxss` 样式文件供小程序使用。
 
+
+安装
 ```bash
-sudo npm install . -g // 将当前项目全局安装在本地
+npm install scss2wxss -D
 ```
 
-在项目根目录下执行
+任务配置
+```javascript
+"scripts": {
+    "scss": "npx scss2wxss"
+  },
+```
+
+执行任务
 ```bash
-scss2wxss
+npm run scss
 ```
 
 如果要编译成`.css`文件，则执行
 ```bash
-scss2wxss css
+npm run scss css
 ```
