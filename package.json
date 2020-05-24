@@ -1,6 +1,6 @@
 {
   "name": "scss2wxss",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "a scss to wxss tool",
   "main": "index.js",
   "scripts": {
@@ -24,7 +24,7 @@
     "scss2wxss": "bin/scss2wxss.js"
   },
   "dependencies": {
-    "node-sass": "^4.11.0",
-    "node-watch": "^0.6.0"
+    "node-sass": "^4.14.1",
+    "node-watch": "^0.6.4"
   }
 }
